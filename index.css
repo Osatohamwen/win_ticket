@@ -28,7 +28,7 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 60px;
+    height: 50px;
 }
 .container div:hover{
     color: rgb(38, 124, 38);
@@ -41,9 +41,8 @@ main{
     width: 100%;
     background-color: transparent;
     color: rgb(4, 36, 4);
-    font-size: 2rem;
+    font-size: 1.5rem;
     cursor: pointer;
-    padding: 0 3px;
 }
 .input-details{
     background-image: url("./assets/4e8089de403d446384c90c303e69b1d3.png");
@@ -54,7 +53,6 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     padding: 0 1rem;
 }
 .details-wrap{
@@ -121,11 +119,12 @@ main{
     color: white;
     font-size: 7rem;
     font-weight: 700;
-    padding-bottom: 2rem;
+    padding: 3rem 0 0 0;
 
 }
 #form{
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 4rem;
 }
