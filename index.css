@@ -1,0 +1,131 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+main{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    color: orange;
+    padding: 2rem 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    padding: 0 1rem;
+    gap: 1rem;
+}
+.container div{
+    border: 0.3px solid rgb(189, 188, 188);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+}
+.container div:hover{
+    color: rgb(38, 124, 38);
+
+}
+.container div button{
+    text-decoration: none;
+    border: none;
+    height: inherit;
+    width: 100%;
+    background-color: transparent;
+    color: rgb(4, 36, 4);
+    font-size: 2rem;
+    cursor: pointer;
+    padding: 0 3px;
+}
+.input-details{
+    background-image: url("./assets/4e8089de403d446384c90c303e69b1d3.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1rem;
+}
+.details-wrap{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.input-details label{
+    color: rgb(189, 140, 51);
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+}
+.input-details input{
+    border: 0.5px solid rgb(189, 140, 51);
+    padding: 0.5rem;
+    height: 50px;
+    width: 70%;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+    background-color: transparent;
+
+}
+.input-details input:focus{
+    outline: none;
+    color: white;
+}
+.submit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 45px
+}
+.submit button{
+    width: inherit;
+    height: inherit;
+    border: 1px solid rgb(19, 175, 19);
+    color: white;
+    background-color: transparent;
+    border-radius: 6px;
+    font-size: 13px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.submit button:hover{
+    background-color: rgb(21, 87, 21);
+    border: none;
+}
+.error-wrap{
+    display: flex;
+    width: 100%;
+    padding: 2px 10px 0 0;
+    justify-content: flex-end;
+}
+#name-error{
+    font-size: 11px;
+    color: red;
+}
+#btnvalue{
+    color: white;
+    font-size: 7rem;
+    font-weight: 700;
+    padding-bottom: 2rem;
+
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
